@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+}
+/*This is the container where we store the information*/
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #b2bec3;
+}
+/*This is the container of information for a single person*/
+.container div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    width: 800px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+/*This is the id of the person*/
+.id{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55efc4;
+}
+/*This is the email of the person*/
+.email{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74b9ff;
+}
+/*This is the first name of the person*/
+.f-name{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeaa7;
+}
+/*This is the last name of the person*/
+.l-name{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7675;
+}
